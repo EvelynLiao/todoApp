@@ -1,0 +1,210 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+body{
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.2em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+} */
+
+.Intro-sub {
+  color: gray;
+  font-weight: 600;
+}
+
+footer {
+  position: fixed; 
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.header {
+  display: flex;
+  width: auto;
+  padding: 8px 80px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.4px solid #000;
+  margin-bottom: 4rem;
+}
+
+.logo img {
+  width: 2rem;
+}
+
+.header-right > * {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  margin-left: 10px; 
+  color: #010101;
+  border-radius: 4px;
+  padding: 4px 8px;
+  text-decoration: none;
+  transition: border-color 0.25s;
+}
+
+.header-right > *:hover {
+  border: 1px solid;
+  border-color: #646cff;
+}
+
+/* landing page */
+body {
+  height: 100vh;
+}
+
+.land-cta {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.land-cta button{
+  padding: .8em 2em;
+  border-radius: 24px;
+  color: #ffffff;
+  background-color: #646cff;
+}
+
+.land-cta button:hover{
+  color: black;
+  background-color: white;
+}
+
+.land-img img {
+  height: 50vh;
+}
+
+/* info page */
+.info-img {
+  height: 30vh;
+  position: absolute;
+  bottom: 8rem; /* Adjust the distance from the bottom */
+  right:20rem; 
+}
+
+.infosec-container {
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50rem; 
+}
+
+.info-list1 {
+  text-align: left;
+  font-weight: 400;
+}
+
+.info-description {
+  color: #646cff;
+  font-size: 24px;
+}
+
+/* todoPage */
+.todo-container {
+  margin: 40px auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40rem;
+  border: 1px solid;
+  border-radius: 12px;
+}
+
+.todo-title {
+  color: #646cff;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
+  border-bottom: #8a8989 solid .8px;
+  width: inherit;
+  
+}
+
+.todo-section {
+  margin-bottom: 20px;
+}
+
+.todo {  
+  color:#646cff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 8px;
+}
+
+.todo-input {
+  margin-right: 12px;
+}
+
+.todo input[type="checkbox"] {
+  margin-right: 12px; 
+}
+
+.todo button {
+  margin-left: auto;
+}
+
+.todo button:hover {
+  color: #646cff;
+  border: 0px;
+  font-weight: 700;
+  transition: border-color 0s;
+}
+
+
+.completed {
+  text-decoration: line-through;
+  color: #999;
+}
+
+.todo-done {
+  font-size: 2.2em;
+  font-weight: 700;
+  color: #646cff;
+}
+
+.done-img {
+  height: 50vh;
+}
